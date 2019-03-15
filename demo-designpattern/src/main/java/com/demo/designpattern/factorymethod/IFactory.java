@@ -7,5 +7,5 @@ package com.demo.designpattern.factorymethod;
  * @Date: 2019/3/8 16:34
  */
 public interface IFactory {
-    public IProductCar produce();
+    IProductCar produce();
 }

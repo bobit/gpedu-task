@@ -1,12 +1,17 @@
 package com.demo.designpattern.abstractfactory.car;
 
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
 /**
  * 客户端测试
  *
  * @Author: zhangb
- * @Date: 2019/3/8 16:59
+ * @Date: 2019/3/8 17:18
  */
-public class AbstractFactoryClient {
+public class AbstractFactoryTest {
+
     public static void main(String args[]) {
 
         AbstractFactory factory = new ProductCarMedFactory();
@@ -18,5 +23,13 @@ public class AbstractFactoryClient {
         productCarSuv.autoStart();
         productCarMpv.ignition();
         productCarMpv.startup();
+    }
+
+    @Test
+    public void createAbstractProductCarMpv() {
+    }
+
+    @Test
+    public void createAbstractProductCarSuv() {
     }
 }
