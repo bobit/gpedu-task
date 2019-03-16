@@ -6,7 +6,7 @@ package com.demo.designpattern.prototype.simple;
  * @Author: zhangb
  * @Date: 2019/3/10 16:37
  */
-public class ShapeTest {
+public class PrototypeShapeTest {
 
     public static void main(String[] args) {
         ShapeCache.loadCache();
