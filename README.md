@@ -9,7 +9,7 @@
 - [x] [【课后作业】20190313_委派模式及策略模式-demo](https://github.com/bobit/gpedu-task/tree/master/demo-designpattern/src/main/java/com/demo/designpattern/strategy)
 - [x] [【课后作业】20190316_模板模式及适配器模式-demo](https://github.com/bobit/gpedu-task/tree/master/demo-designpattern/src/main/java/com/demo/designpattern/adapter)
 - [x] [【课后作业】20190317_装饰者模式及观察者模式-demo](https://github.com/bobit/gpedu-task/tree/master/demo-designpattern/src/main/java/com/demo/designpattern/decorator)
-- [x] [【课后作业】20190320_各设计模式总结与对比-demo](https://github.com/bobit/gpedu-task/tree/master/demo-designpattern/src/main/java/com/demo/designpattern)
+- [x] [【课后作业】20190320_各设计模式总结与对比-demo](https://github.com/bobit/gpedu-task/tree/master/demo-designpattern)
 
 ### [Spring核心原理篇-demo](https://github.com/bobit/gpedu-task/tree/master/demo-spring)
 
