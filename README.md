@@ -13,4 +13,4 @@
 
 ### [Spring核心原理篇-demo](https://github.com/bobit/gpedu-task/tree/master/demo-spring)
 
-- [ ] [【课后作业】20190324_用300行代码手写提炼Spring的核心原理-demo](https://github.com/bobit/gpedu-task/tree/master/demo-spring)
+- [x] [【课后作业】20190324_用300行代码手写提炼Spring的核心原理-demo](https://github.com/bobit/gpedu-task/tree/master/demo-spring)
