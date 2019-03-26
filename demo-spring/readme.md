@@ -18,5 +18,5 @@ SpringMVC框架是以请求为驱动，围绕Servlet设计，将请求发给控�
 8.  通过View返回给请求者（浏览器）。
 
 ### MiniSpringMVC
-- [ ] [MiniSpringMVC](https://github.com/bobit/gpedu-task/tree/master/demo-spring/src/main/java/com/demo/spring/minispringmvc)
+- [x] [MiniSpringMVC](https://github.com/bobit/gpedu-task/tree/master/demo-spring/src/main/java/com/demo/minispringmvc/servlet)
 
