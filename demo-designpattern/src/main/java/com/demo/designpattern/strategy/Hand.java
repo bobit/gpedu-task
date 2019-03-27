@@ -1,6 +1,8 @@
 package com.demo.designpattern.strategy;
 
 /**
+ * 猜拳游戏中的手势类
+ *
  * @author zhangb
  */
 public class Hand {

@@ -1,5 +1,10 @@
 package com.demo.designpattern.strategy;
 
+/**
+ * 猜拳游戏的选手类
+ *
+ * @author zhangb
+ */
 public class Player {
     private String name;
     private Strategy strategy;
@@ -32,6 +37,7 @@ public class Player {
         gamecount++;
     }
 
+    @Override
     public String toString() {
         return "[" + name + ":" + gamecount + " games, " + wincount + " win, " + losecount + " lose" + "]";
     }

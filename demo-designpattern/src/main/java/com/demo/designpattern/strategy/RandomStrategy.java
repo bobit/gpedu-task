@@ -2,6 +2,11 @@ package com.demo.designpattern.strategy;
 
 import java.util.Random;
 
+/**
+ * 随机策略
+ *
+ * @author zhangb
+ */
 public class RandomStrategy implements Strategy {
     private Random random;
 

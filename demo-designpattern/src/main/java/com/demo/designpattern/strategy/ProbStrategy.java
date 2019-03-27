@@ -2,6 +2,12 @@ package com.demo.designpattern.strategy;
 
 import java.util.Random;
 
+/**
+ * 智能策略
+ * 从之前的猜拳结果计算下一局出各种拳的概率
+ *
+ * @author zhangb
+ */
 public class ProbStrategy implements Strategy {
     private Random random;
     private int prevHandValue = 0;
