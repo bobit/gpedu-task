@@ -19,15 +19,15 @@ public class ShapeCache {
 
     // 创建每种形状,存储在一个 Hashtable 中
     public static void loadCache() {
-        ConcretePrototypeCircle concretePrototypeCircle = new ConcretePrototypeCircle();
-        concretePrototypeCircle.setId("1");
-        shapeMap.put(concretePrototypeCircle.getId(), concretePrototypeCircle);
+        ConcretePrototypeCircle circle = new ConcretePrototypeCircle();
+        circle.setId("1");
+        shapeMap.put(circle.getId(), circle);
 
-        Square square = new Square();
+        ConcretePrototypeSquare square = new ConcretePrototypeSquare();
         square.setId("2");
         shapeMap.put(square.getId(), square);
 
-        Rectangle rectangle = new Rectangle();
+        ConcretePrototypeRectangle rectangle = new ConcretePrototypeRectangle();
         rectangle.setId("3");
         shapeMap.put(rectangle.getId(), rectangle);
     }

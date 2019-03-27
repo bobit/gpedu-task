@@ -1,4 +1,4 @@
-package com.demo.designpattern.decorator;
+package com.demo.designpattern.decorator.message;
 
 /**
  * 具体装饰角色，增加过滤掉政治敏感字眼的功能

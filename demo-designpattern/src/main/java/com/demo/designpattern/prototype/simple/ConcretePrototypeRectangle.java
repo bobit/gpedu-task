@@ -6,9 +6,10 @@ package com.demo.designpattern.prototype.simple;
  * @Author: zhangb
  * @Date: 2019/3/10 16:34
  */
-public class Rectangle extends PrototypeShape {
-    public Rectangle() {
-        type = "Rectangle";
+public class ConcretePrototypeRectangle extends PrototypeShape {
+
+    public ConcretePrototypeRectangle() {
+        type = "ConcretePrototypeRectangle";
     }
 
     @Override

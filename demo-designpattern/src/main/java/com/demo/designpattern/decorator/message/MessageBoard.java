@@ -1,4 +1,4 @@
-package com.demo.designpattern.decorator;
+package com.demo.designpattern.decorator.message;
 
 /**
  * 用户留言板的具体实现

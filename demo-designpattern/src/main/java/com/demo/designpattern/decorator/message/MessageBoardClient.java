@@ -1,4 +1,4 @@
-package com.demo.designpattern.decorator;
+package com.demo.designpattern.decorator.message;
 
 /**
  * 客户端测试

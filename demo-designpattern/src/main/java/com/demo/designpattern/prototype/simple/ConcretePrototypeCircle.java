@@ -7,6 +7,7 @@ package com.demo.designpattern.prototype.simple;
  * @Date: 2019/3/10 16:34
  */
 public class ConcretePrototypeCircle extends PrototypeShape {
+
     public ConcretePrototypeCircle() {
         type = "ConcretePrototypeCircle";
     }

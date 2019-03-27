@@ -6,10 +6,10 @@ package com.demo.designpattern.prototype.simple;
  * @Author: zhangb
  * @Date: 2019/3/10 16:35
  */
-public class Square extends PrototypeShape {
+public class ConcretePrototypeSquare extends PrototypeShape {
 
-    public Square() {
-        type = "Square";
+    public ConcretePrototypeSquare() {
+        type = "ConcretePrototypeSquare";
     }
 
     @Override

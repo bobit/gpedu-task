@@ -1,5 +1,12 @@
 package com.demo.designpattern.decorator;
 
+import com.demo.designpattern.decorator.message.HtmlFilter;
+import com.demo.designpattern.decorator.message.MessageBoard;
+import com.demo.designpattern.decorator.message.MessageBoardHandler;
+import com.demo.designpattern.decorator.message.SensitiveFilter;
+
+import static org.junit.Assert.*;
+
 /**
  * 客户端测试
  * 增加了需求，需要得到留言板上的内容后能够过滤掉HTML标签和政治敏感的字眼，这时候我们该怎么办呢？大家想想，过滤掉HTML标签和政治敏感的字眼这两个功能有先后顺序问题。不同的顺序我们就要做做不同的类来实现。如果类似这样的功能又增加了几个，排列组合起来是很可怕的。那如何是好呢？你要停下来好好思索一下了。
@@ -7,7 +14,8 @@ package com.demo.designpattern.decorator;
  * @Author: zhangb
  * @Date: 2019/3/8 15:51
  */
-public class MessageBoardDecoratorClient {
+
+public class MessageBoardDecoratorTest {
     public static void main(String[] args) {
         MessageBoardHandler mb = new MessageBoard();
         String content = mb.filter("一定要学好装饰模式！");

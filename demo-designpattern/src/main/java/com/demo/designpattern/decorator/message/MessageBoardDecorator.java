@@ -1,4 +1,4 @@
-package com.demo.designpattern.decorator;
+package com.demo.designpattern.decorator.message;
 
 /**
  * 装饰角色
