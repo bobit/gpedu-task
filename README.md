@@ -14,3 +14,7 @@
 ### [Spring核心原理篇-demo](https://github.com/bobit/gpedu-task/tree/master/demo-spring)
 
 - [x] [【课后作业】20190324_用300行代码手写提炼Spring的核心原理-demo](https://github.com/bobit/gpedu-task/tree/master/demo-spring)
+- [ ] [【课后作业】20190331_一步一步手绘Spring AOP运行时序图-demo]()
+- [ ] [【课后作业】20190330_一步一步手绘Spring DI运行时序图-demo]()
+- [ ] [【课后作业】20190327_一步一步手绘Spring IOC运行时序图-demo]()
+
