@@ -21,3 +21,4 @@
 
 ### [Spring高仿手写篇-demo](https://github.com/bobit/gpedu-task/tree/master/demo-spring-mini)
 - [ ] [【课后作业】20190410_用30个类高仿真提炼纯手写Spring框架V2.0(1)-demo](https://github.com/bobit/gpedu-task/tree/master/demo-spring-mini)
+- [ ] [【课后作业】20190413_用30个类高仿真提炼纯手写Spring框架V2.0(2)-demo](https://github.com/bobit/gpedu-task/tree/master/demo-spring-mini)
