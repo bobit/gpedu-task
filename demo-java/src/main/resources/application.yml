@@ -1,0 +1,5 @@
+server:
+  port: 8081
+logging:
+  file: ./logs/logs.log
+  root: debug
