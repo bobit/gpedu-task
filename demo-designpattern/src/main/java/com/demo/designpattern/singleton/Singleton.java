@@ -2,13 +2,14 @@ package com.demo.designpattern.singleton;
 
 /**
  * 单例模式（Singleton Pattern）
+ * 单例模式中的饿汉模式
  * 通用代码,线程安全实例
  *
  * @Author: zhangb
  * @Date: 2019/3/9 16:53
  */
 public class Singleton {
-
+    // 直接创建对象
     private static final Singleton singleton = new Singleton();
 
     //限制产生多个对象
