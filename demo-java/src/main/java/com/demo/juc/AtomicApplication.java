@@ -6,6 +6,10 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicIntegerArray;
 import java.util.concurrent.atomic.AtomicReference;
 
+/**
+ *
+ * @author zhangb
+ */
 @SpringBootApplication
 public class AtomicApplication {
 	// 原子更新基本类型类

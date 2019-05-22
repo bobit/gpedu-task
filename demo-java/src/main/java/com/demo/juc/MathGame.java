@@ -6,6 +6,8 @@ import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 /**
+ *
+ *
  * @author zhangb
  */
 public class MathGame {
