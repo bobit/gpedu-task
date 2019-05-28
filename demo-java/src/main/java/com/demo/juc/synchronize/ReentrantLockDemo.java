@@ -23,7 +23,7 @@ public class ReentrantLockDemo implements Runnable {
             lock.lock(); // 获取锁
             try {
                 if (tickets > 0) {
-                    TimeUnit.MILLISECONDS.sleep(100);
+                    TimeUnit.MILLISECONDS.sleep(1000);
                     System.out.println(Thread.currentThread().getName() + " " + tickets--);
                 } else {
                     break;
@@ -31,7 +31,7 @@ public class ReentrantLockDemo implements Runnable {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             } finally {
-                lock.unlock(); // 释放所
+                lock.unlock(); // 释放锁
             }
         }
     }
